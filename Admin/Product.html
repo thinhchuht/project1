@@ -1,0 +1,110 @@
+<div class="searchBar">
+    <input type="text">
+    <button> Search</button>
+</div>
+<div class="details">
+
+    <table>
+        <button class="btnAdd" onclick="addProd()">Add New</button>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Info</th>
+            <th>Detail</th>
+            <th>Star</th>
+            <th>Image</th>
+            <th>NSX</th>
+            <th>Category</th>
+            <th>Edit</th>
+            <th>Delete</th>
+
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Samsung Galaxy S22 Ultra 5G</td>
+            <td>30.990.000₫</td>
+            <td>6.9 inches, Chip MediaTek Helio G85 (12nm) mạnh mẽ, Ram 4G, Pin 7000 mAh</td>
+            <td>ProductDetail1</td>
+            <td>5</td>
+            <td>image1.jpg</td>
+            <td>SAMSUNG</td>
+            <td>Điện thoại</td>
+            <td>
+                <button type="button" class="btnEdit">Edit</button>
+            </td>
+            <td>
+                <button type="button" class="btnDelete">Delete</button>
+            </td>
+
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Samsung Galaxy S22 Ultra 5G</td>
+            <td>30.990.000₫</td>
+            <td>6.9 inches, Chip MediaTek Helio G85 (12nm) mạnh mẽ, Ram 4G, Pin 7000 mAh</td>
+            <td>ProductDetail1</td>
+            <td>5</td>
+            <td>image1.jpg</td>
+            <td>SAMSUNG</td>
+            <td>Điện thoại</td>
+            <td>
+                <button type="button" class="btnEdit">Edit</button>
+            </td>
+            <td>
+                <button type="button" class="btnDelete">Delete</button>
+            </td>
+
+        </tr>
+
+    </table>
+    <div class="btns">
+        <button class="btn"><a href=""> 1</a></button>
+        <button class="btn"><a href=""> 2</a></button>
+        <button class="btn"><a href=""> 3</a></button>
+        <button class="btn"><a href=""> 4</a></button>
+        <button class="btn"><a href=""> 5</a></button>
+    </div>
+
+
+</div>
+</div>
+</div>
+<div class="backdrop">
+    <div class="addNew hidden">
+        <button class="x" onclick="hidePop()"> X </button>
+        <h1> Create new product</h1>
+        <form action="">
+            <label for="fid">Id</label><br>
+            <input class="id" type="text" name=" fid" placeholder="Input Id"><br><br>
+            <label for="fname">Name:</label><br>
+            <input class="name" type="text" name=" fname" placeholder="Input Name"><br><br>
+            <label for="fprice">Price</label><br>
+            <input class="Price" type="number" name=" fprice" placeholder="Input Price"><br><br>
+            <label for="finfo">Info</label><br>
+            <input class="info" type="text" name=" finfo" placeholder="Input Info"><br><br>
+            <label for="fdetail">Detail</label><br>
+            <input class="detail" type="text" name=" fdetail" placeholder="Input Detail"><br><br>
+            <label for="fstar">Star</label><br>
+            <input class="star" type="number" name=" fstar" placeholder="Input Star"><br><br>
+            <label for="fimage">Image</label><br>
+            <input class="images" type="file" name="fimage" value="Choose file"><br><br>
+            <label for="">Manufacturer</label><br>
+            <select class="selectManu" name=" selectManu">
+                <option value="" disabled selected>-- Choose a Manufacturer --</option>
+                <option value="1">SAMSUNG </option>
+                <option value="2">OPPO</option>
+                <option value="3">APPLE</option>
+                <option value="3">XIAOMI</option>
+            </select><br><br>
+            <label for="">Category</label><br>
+            <select class="selectCat" name=" selectCat">
+                <option value="" disabled selected>-- Select Category --</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+            </select><br><br>
+            <input type="submit" value="Save" class="save ">
+            <input type="reset" value="Reset" class="reset ">
+        </form>
+    </div>
