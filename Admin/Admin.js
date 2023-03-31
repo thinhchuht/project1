@@ -48,3 +48,30 @@ function hidePop() {
     $(".addNew").addClass("hidden");
     $(".backdrop").fadeOut(200);
 }
+
+
+function saveAdd() {
+    alert("hello");
+    $(".tableDetails").append(`
+    <tr>
+    <td>1</td>
+    <td>Samsung Galaxy S22 Ultra 5G</td>
+    <td>30.990.000₫</td>
+    <td>6.9 inches, Chip MediaTek Helio G85 (12nm) mạnh mẽ, Ram 4G, Pin 7000 mAh</td>
+    <td>ProductDetail1</td>
+    <td>5</td>
+    <td>image1.jpg</td>
+    <td>SAMSUNG</td>
+    <td>Điện thoại</td>
+    <td>
+        <button type="button" class="btnEdit">Edit</button>
+    </td>
+    <td>
+        <button type="button" class="btnDelete">Delete</button>
+    </td>
+
+</tr>
+        </div>
+    `)
+
+}
