@@ -37,6 +37,10 @@ a {
     display: none;
 }
 
+.slide-1 {
+    display: block;
+}
+
 .slidesContent img {
     vertical-align: middle;
     height: 500px;
